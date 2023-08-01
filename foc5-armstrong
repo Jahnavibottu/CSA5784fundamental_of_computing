@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int a,rem,c,sum,temp;
+	printf("enter");
+	scanf("%d",&a);
+	temp=a;
+	while(a>0)
+	{
+		rem=a%10;
+		c=rem*rem*rem;
+		a=a/10;
+		sum=c+sum;
+	}
+	if(temp==sum)
+	{
+		printf("armstrong");
+	}
+	else
+	{
+		printf("no");
+	}	
+}
