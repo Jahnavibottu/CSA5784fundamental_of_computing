@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,n,s,value;
+	printf("enter the n value:");
+	scanf("%d",&n);
+	s=0;
+	for(i=1;i<=n;i++)
+	{
+		value=0;
+		for(j=1;j<=i;j++)
+		{
+			value+=j;
+		}
+	s=s+value;
+}
+	printf("sum=%d",s);	
+	return 0;	
+}
