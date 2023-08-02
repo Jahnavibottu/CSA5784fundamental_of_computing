@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int n,sq,i;
+	printf("enter");
+	scanf("%d",&n);
+	printf("square values:");
+	for(i=1;i<=n;i++)
+	{
+		sq=i*i;		
+		printf("%d ",sq);
+}
+}
