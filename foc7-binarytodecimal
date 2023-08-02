@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int num,digit,dec=0,bin,base=0;
+	printf("enter:");
+	scanf("%d",&num);
+	while(num!=0)
+	{
+		digit=num%10;
+		dec=dec+(digit<<base);
+		base+=1;
+		num=num/10;
+	}
+	printf("decimal value=%d",dec);
+}
