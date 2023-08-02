@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int c,f,cn,fn;
+	printf("enter c");
+	scanf("%d",&cn);
+	f=1.8*cn+32;
+	printf("farenheit=%d",f);
+	printf("\nenter f");
+	scanf("%d",&fn);
+	c=(fn-32)/1.8;
+	printf("centigrade=%d",c);
+	}
