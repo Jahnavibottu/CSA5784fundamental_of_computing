@@ -1,0 +1,9 @@
+echo "enter a number"
+read n
+a=1
+echo "natural numbers are"
+for((a=1;a<=n;a++))
+do
+echo $a
+done 
+fi
