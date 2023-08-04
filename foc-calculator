@@ -1,0 +1,20 @@
+#include<iostream>
+#include<math.h>
+int main()
+{
+	int x,y,ch;
+	printf("enter x and y:");
+	scanf("%d %d",&x,&y);
+	printf("enter your choice:");
+	scanf("%d",&ch);
+	if(ch==1)
+	printf("add:%d+%d=%d",x,y,x+y);
+	else if(ch==2)
+	printf("\nsub:%d-%d=%d",x,y,x-y);
+	else if(ch==3)
+	printf("\nmul:%dx%d=%d",x,y,x*y);
+	else if(ch==4)
+	printf("\ndiv:%d/%d=%d",x,y,x/y);
+	else
+	printf("\npow:%d**%d=%f",x,y,pow(x,y));
+}
