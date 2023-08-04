@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	FILE *fp;
+	char c;
+	fp=fopen("TEXT","w");
+	printf("enter text:");
+	while((c==getchar())!='\0')
+	putc(c,fp);
+	fclose(fp);
+	printf("display text:");
+	fp=fopen("TEXT","r");
+	while((c==getc(fp))!=EOF)
+	printf("%c",c);
+	fclose(fp);
+	return 0;
+}
