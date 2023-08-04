@@ -1,0 +1,18 @@
+echo "enter no of students"
+read n
+a=1
+for((a=1;a<=n;a++))
+do
+echo "enter student name"
+read name
+echo "english marks"
+read mark1
+echo "science marks"
+read mark2
+echo "math marks"
+read mark3
+sum=$(($mark1+$mark2+$mark3))
+per=$(((100*sum)/300))
+echo "sum"=$sum
+echo "percentage"=$per
+done
