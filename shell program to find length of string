@@ -1,0 +1,4 @@
+echo "enter string"
+read s
+len=${#s}
+echo $len
