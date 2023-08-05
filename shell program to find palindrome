@@ -1,0 +1,15 @@
+echo "enter string"
+read s
+reverse=""
+b=$len-1
+len=${#s}
+for ((i=a;i>=0;i--))
+do
+reverse="$reverse${s:$i:1}"
+done
+if (($s==$reverse))
+then
+echo "palin"
+else 
+echo "no"
+fi
