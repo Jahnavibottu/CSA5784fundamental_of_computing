@@ -1,0 +1,3 @@
+echo "enter binary number"
+read a
+echo "$((2#$a))"
